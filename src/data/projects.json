@@ -1,0 +1,114 @@
+[
+  {
+    "id": "proj-1",
+    "title": "Anatomy of Form & Perspective",
+    "category": "Sketches & Studies",
+    "discipline": "Observational Drawing & Structural Geometry",
+    "year": "2024",
+    "medium": "Charcoal & Graphite on 220gsm Ivory Cartridge Paper",
+    "dimensions": "A2 Spread (420 × 594 mm)",
+    "resolution": "4K High-Res Scan (3200 × 4267 px)",
+    "image": "portfolio/hands_sketch.jpg",
+    "featured": true,
+    "concept": "An exploration into the biomechanical geometry of the human hand deconstructed into rectilinear volumes. In preparing for design entrance examinations, I aimed to study not just surface anatomy, but how organic skeletal structures can be interpreted as spatial architectural units interacting with a dynamic perspective grid.",
+    "processSteps": [
+      {
+        "title": "Isometric Grid Construction",
+        "description": "Plotted a 3-point perspective matrix to map finger joints and phalanges onto Cartesian space."
+      },
+      {
+        "title": "Skeletal vs. Muscular Volume",
+        "description": "Contrasted anatomical bone density with volumetric blocks to test grasp and tension."
+      },
+      {
+        "title": "Cross-Hatching & Chiaroscuro",
+        "description": "Utilized vine charcoal and 6B graphite for deep tonal contrast indicating surface plane orientation."
+      }
+    ],
+    "tags": ["Anatomy", "Perspective", "Charcoal", "Structural Drawing", "Foundation"]
+  },
+  {
+    "id": "proj-2",
+    "title": "Lumina — Tactile Light & Pulp Form",
+    "category": "Form & 3D",
+    "discipline": "Sculptural Lighting & Material Exploration",
+    "year": "2024",
+    "medium": "Hand-cast Recycled Paper Pulp, Formed Brass Wireframe, 2700K LED",
+    "dimensions": "48 × 36 × 52 cm",
+    "resolution": "High-Res Studio Capture (4000 × 3000 px)",
+    "image": "portfolio/form_sculpture.jpg",
+    "featured": true,
+    "concept": "Lumina investigates the interplay of raw tactile materiality and ambient diffuse illumination. Crafted by layering hand-pulped unbleached cotton rag over a bent brass tension armature, the undulating organic surfaces filter light unevenly, celebrating biological asymmetry and warmth in contemporary living spaces.",
+    "processSteps": [
+      {
+        "title": "Wireframe Armature Bending",
+        "description": "Formed continuous 3mm brass rod to create a self-supporting organic tensile skeleton."
+      },
+      {
+        "title": "Pulp Formulation & Slurry Layering",
+        "description": "Blended recycled cotton rag and abaca fiber to achieve variable translucency and fibrous texture."
+      },
+      {
+        "title": "Luminance & Diffusion Testing",
+        "description": "Tested diffusion angles with soft 2700K illumination to avoid harsh glare and evoke calmness."
+      }
+    ],
+    "tags": ["3D Form", "Paper Pulp", "Sustainable Design", "Lighting", "Material Study"]
+  },
+  {
+    "id": "proj-3",
+    "title": "Semilla — Biomimetic Hydration Vessel",
+    "category": "Product & Concept",
+    "discipline": "Industrial Design & Ergonomics",
+    "year": "2024",
+    "medium": "Slip-cast Matte Ceramic, Natural Cork Stopper, Charcoal Filter",
+    "dimensions": "750 ml Capacity (26 × 10.5 cm)",
+    "resolution": "High-Res Presentation Board (4000 × 3000 px)",
+    "image": "portfolio/biomimicry_vessel.jpg",
+    "featured": true,
+    "concept": "Inspired by the longitudinal grooves of protective seed pods, Semilla redesigns table water storage. The undulating fluted profile is not merely decorative; it provides an intuitive tactile grip that accommodates varying hand sizes without requiring a conventional handle, while the thermal properties of raw ceramic keep water cool.",
+    "processSteps": [
+      {
+        "title": "Seed Pod Morphological Analysis",
+        "description": "Analyzed ribbed seed husks to identify natural ridges that resist rotational slip in the hand."
+      },
+      {
+        "title": "Ergonomic Hand-Grip Form Studies",
+        "description": "Iterated through 6 blue foam lathe models to locate thumb placement and balance center."
+      },
+      {
+        "title": "Ceramic Slip-Casting & Cork Integration",
+        "description": "Cast with unglazed exterior slip for a velvet touch, paired with a sustainably harvested cork seal."
+      }
+    ],
+    "tags": ["Biomimicry", "Ceramics", "Product Design", "Ergonomics", "Sustainable"]
+  },
+  {
+    "id": "proj-4",
+    "title": "Discourse — Typographic Architecture",
+    "category": "Visual Communication",
+    "discipline": "Typography & Graphic Design",
+    "year": "2024",
+    "medium": "Vector Typography, 2-Color Silkscreen on 280gsm Uncoated Stock",
+    "dimensions": "B1 Exhibition Format (700 × 1000 mm)",
+    "resolution": "Vector 300 DPI Master (3000 × 4000 px)",
+    "image": "portfolio/typography_poster.jpg",
+    "featured": true,
+    "concept": "An experimental exhibition identity exploring the tension between rigid typographic grids and aggressive diagonal kinetics. Drawing inspiration from the International Typographic Style and Russian Constructivism, the poster transforms linguistic text into spatial blocks, guiding viewer eye movements across deliberate reading focal points.",
+    "processSteps": [
+      {
+        "title": "Grid Matrix & Diagonal Axis",
+        "description": "Constructed a 45-degree angled baseline grid breaking out of traditional 12-column layouts."
+      },
+      {
+        "title": "Hierarchy & Contrast Rhythm",
+        "description": "Balanced high-density letterforms against expansive cream negative space for maximum legibility."
+      },
+      {
+        "title": "Print Production & Separation",
+        "description": "Separated spot pantone reds and rich matte black ink layers for tactile silkscreen reproduction."
+      }
+    ],
+    "tags": ["Typography", "Visual Identity", "Swiss Style", "Silkscreen", "Poster"]
+  }
+]
