@@ -11,7 +11,8 @@
     "image": "portfolio/hands_sketch.jpg",
     "images": [
       "portfolio/hands_sketch.jpg",
-      "portfolio/hands_skeletal.jpg"
+      "portfolio/hands_skeletal.jpg",
+      "portfolio/hands_gesture.jpg"
     ],
     "featured": true,
     "concept": "An exploration into the biomechanical geometry of the human hand deconstructed into rectilinear volumes. In preparing for design entrance examinations, I aimed to study not just surface anatomy, but how organic skeletal structures can be interpreted as spatial architectural units interacting with a dynamic perspective grid.",
@@ -43,7 +44,8 @@
     "image": "portfolio/form_sculpture.jpg",
     "images": [
       "portfolio/form_sculpture.jpg",
-      "portfolio/lumina_macro.jpg"
+      "portfolio/lumina_macro.jpg",
+      "portfolio/lumina_armature.jpg"
     ],
     "featured": true,
     "concept": "Lumina investigates the interplay of raw tactile materiality and ambient diffuse illumination. Crafted by layering hand-pulped unbleached cotton rag over a bent brass tension armature, the undulating organic surfaces filter light unevenly, celebrating biological asymmetry and warmth in contemporary living spaces.",
@@ -74,7 +76,9 @@
     "resolution": "High-Res Presentation Board (4000 × 3000 px)",
     "image": "portfolio/biomimicry_vessel.jpg",
     "images": [
-      "portfolio/biomimicry_vessel.jpg"
+      "portfolio/biomimicry_vessel.jpg",
+      "portfolio/semilla_foam.jpg",
+      "portfolio/semilla_sketch.jpg"
     ],
     "featured": true,
     "concept": "Inspired by the longitudinal grooves of protective seed pods, Semilla redesigns table water storage. The undulating fluted profile is not merely decorative; it provides an intuitive tactile grip that accommodates varying hand sizes without requiring a conventional handle, while the thermal properties of raw ceramic keep water cool.",
@@ -93,36 +97,5 @@
       }
     ],
     "tags": ["Biomimicry", "Ceramics", "Product Design", "Ergonomics", "Sustainable"]
-  },
-  {
-    "id": "proj-4",
-    "title": "Discourse — Typographic Architecture",
-    "category": "Visual Communication",
-    "discipline": "Typography & Graphic Design",
-    "year": "2024",
-    "medium": "Vector Typography, 2-Color Silkscreen on 280gsm Uncoated Stock",
-    "dimensions": "B1 Exhibition Format (700 × 1000 mm)",
-    "resolution": "Vector 300 DPI Master (3000 × 4000 px)",
-    "image": "portfolio/typography_poster.jpg",
-    "images": [
-      "portfolio/typography_poster.jpg"
-    ],
-    "featured": true,
-    "concept": "An experimental exhibition identity exploring the tension between rigid typographic grids and aggressive diagonal kinetics. Drawing inspiration from the International Typographic Style and Russian Constructivism, the poster transforms linguistic text into spatial blocks, guiding viewer eye movements across deliberate reading focal points.",
-    "processSteps": [
-      {
-        "title": "Grid Matrix & Diagonal Axis",
-        "description": "Constructed a 45-degree angled baseline grid breaking out of traditional 12-column layouts."
-      },
-      {
-        "title": "Hierarchy & Contrast Rhythm",
-        "description": "Balanced high-density letterforms against expansive cream negative space for maximum legibility."
-      },
-      {
-        "title": "Print Production & Separation",
-        "description": "Separated spot pantone reds and rich matte black ink layers for tactile silkscreen reproduction."
-      }
-    ],
-    "tags": ["Typography", "Visual Identity", "Swiss Style", "Silkscreen", "Poster"]
   }
 ]

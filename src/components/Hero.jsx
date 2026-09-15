@@ -36,7 +36,7 @@ export default function Hero({ onSelectFeatured }) {
           {/* Quick Metrics */}
           <div className="hero-stats-row">
             <div className="stat-item">
-              <span className="stat-number">4</span>
+              <span className="stat-number">3</span>
               <span className="stat-label">Core Disciplines</span>
             </div>
             <div className="stat-item">
@@ -44,8 +44,8 @@ export default function Hero({ onSelectFeatured }) {
               <span className="stat-label">Process Documented</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">4K</span>
-              <span className="stat-label">High-Resolution Studies</span>
+              <span className="stat-number">9</span>
+              <span className="stat-label">Curated Studies</span>
             </div>
           </div>
         </div>

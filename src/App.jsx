@@ -15,17 +15,18 @@ export default function App() {
     return localStorage.getItem('sara_portfolio_theme') || 'dark';
   });
 
-  // Projects state initialized with local storage cache or bundled JSON
+  // Projects state: Use latest bundled projects, plus any newly created custom projects
   const [projects, setProjects] = useState(() => {
-    const saved = localStorage.getItem('sara_portfolio_projects');
-    if (saved) {
-      try {
-        return JSON.parse(saved);
-      } catch (e) {
-        console.error('Failed to parse cached projects', e);
-      }
+    try {
+      // Clear out legacy cache if exists
+      localStorage.removeItem('sara_portfolio_projects');
+      const saved = localStorage.getItem('sara_portfolio_projects_custom');
+      const customProjects = saved ? JSON.parse(saved) : [];
+      return [...customProjects, ...initialProjects];
+    } catch (e) {
+      console.error('Failed to load custom projects', e);
+      return initialProjects;
     }
-    return initialProjects;
   });
 
   // Active modals
@@ -38,21 +39,32 @@ export default function App() {
     localStorage.setItem('sara_portfolio_theme', theme);
   }, [theme]);
 
-  // Sync project changes to localStorage for offline persistence
-  useEffect(() => {
-    localStorage.setItem('sara_portfolio_projects', JSON.stringify(projects));
-  }, [projects]);
-
   const toggleTheme = () => {
     setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
   };
 
   const handleProjectAdded = (newProject) => {
     setProjects(prev => [newProject, ...prev]);
+    try {
+      const saved = localStorage.getItem('sara_portfolio_projects_custom');
+      const custom = saved ? JSON.parse(saved) : [];
+      localStorage.setItem('sara_portfolio_projects_custom', JSON.stringify([newProject, ...custom]));
+    } catch (e) {
+      console.error(e);
+    }
   };
 
   const handleProjectDeleted = (id) => {
     setProjects(prev => prev.filter(p => p.id !== id));
+    try {
+      const saved = localStorage.getItem('sara_portfolio_projects_custom');
+      if (saved) {
+        const custom = JSON.parse(saved).filter(p => p.id !== id);
+        localStorage.setItem('sara_portfolio_projects_custom', JSON.stringify(custom));
+      }
+    } catch (e) {
+      console.error(e);
+    }
     if (selectedProject && selectedProject.id === id) {
       setSelectedProject(null);
     }
