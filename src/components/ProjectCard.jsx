@@ -1,10 +1,13 @@
 import React from 'react';
-import { Maximize2, Sparkles, Layers } from 'lucide-react';
+import { Maximize2, Layers, Sparkles } from 'lucide-react';
 
 export default function ProjectCard({ project, onSelect }) {
+  const images = project.images && project.images.length > 0 ? project.images : [project.image];
+  const hasMultiple = images.length > 1;
+
   return (
     <article 
-      className="project-card"
+      className={`project-card ${hasMultiple ? 'is-stacked' : ''}`}
       onClick={() => onSelect(project)}
       tabIndex={0}
       role="button"
@@ -16,18 +19,37 @@ export default function ProjectCard({ project, onSelect }) {
       }}
       aria-label={`View case study: ${project.title}`}
     >
-      {/* Visual Asset Showcase */}
+      {/* Background stacked layer if multiple images exist */}
+      {hasMultiple && (
+        <div className="card-stack-layer" aria-hidden="true">
+          <img 
+            src={images[1]} 
+            alt="" 
+            loading="lazy"
+            onError={(e) => { e.target.src = 'portfolio/hands_sketch.jpg'; }}
+          />
+        </div>
+      )}
+
+      {/* Visual Asset Showcase (Top Layer) */}
       <div className="card-image-wrap">
         <img 
-          src={project.image} 
+          src={images[0]} 
           alt={project.title}
           loading="lazy"
           onError={(e) => {
-            // Graceful fallback if custom upload path needs adjustments
             e.target.src = 'portfolio/hands_sketch.jpg';
           }}
         />
         
+        {/* Stack Indicator Badge */}
+        {hasMultiple && (
+          <span className="card-stack-badge">
+            <Layers size={11} />
+            <span>{images.length} Studies</span>
+          </span>
+        )}
+
         {/* Native Resolution Pill */}
         {project.resolution && (
           <span className="card-res-badge">
@@ -69,7 +91,7 @@ export default function ProjectCard({ project, onSelect }) {
               gap: '0.25rem'
             }}
           >
-            <Maximize2 size={11} /> Case Study
+            <Maximize2 size={11} /> {hasMultiple ? 'View Gallery' : 'Case Study'}
           </span>
         </div>
       </div>

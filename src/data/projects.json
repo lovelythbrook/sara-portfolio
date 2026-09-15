@@ -9,6 +9,10 @@
     "dimensions": "A2 Spread (420 × 594 mm)",
     "resolution": "4K High-Res Scan (3200 × 4267 px)",
     "image": "portfolio/hands_sketch.jpg",
+    "images": [
+      "portfolio/hands_sketch.jpg",
+      "portfolio/hands_skeletal.jpg"
+    ],
     "featured": true,
     "concept": "An exploration into the biomechanical geometry of the human hand deconstructed into rectilinear volumes. In preparing for design entrance examinations, I aimed to study not just surface anatomy, but how organic skeletal structures can be interpreted as spatial architectural units interacting with a dynamic perspective grid.",
     "processSteps": [
@@ -37,6 +41,10 @@
     "dimensions": "48 × 36 × 52 cm",
     "resolution": "High-Res Studio Capture (4000 × 3000 px)",
     "image": "portfolio/form_sculpture.jpg",
+    "images": [
+      "portfolio/form_sculpture.jpg",
+      "portfolio/lumina_macro.jpg"
+    ],
     "featured": true,
     "concept": "Lumina investigates the interplay of raw tactile materiality and ambient diffuse illumination. Crafted by layering hand-pulped unbleached cotton rag over a bent brass tension armature, the undulating organic surfaces filter light unevenly, celebrating biological asymmetry and warmth in contemporary living spaces.",
     "processSteps": [
@@ -65,6 +73,9 @@
     "dimensions": "750 ml Capacity (26 × 10.5 cm)",
     "resolution": "High-Res Presentation Board (4000 × 3000 px)",
     "image": "portfolio/biomimicry_vessel.jpg",
+    "images": [
+      "portfolio/biomimicry_vessel.jpg"
+    ],
     "featured": true,
     "concept": "Inspired by the longitudinal grooves of protective seed pods, Semilla redesigns table water storage. The undulating fluted profile is not merely decorative; it provides an intuitive tactile grip that accommodates varying hand sizes without requiring a conventional handle, while the thermal properties of raw ceramic keep water cool.",
     "processSteps": [
@@ -93,6 +104,9 @@
     "dimensions": "B1 Exhibition Format (700 × 1000 mm)",
     "resolution": "Vector 300 DPI Master (3000 × 4000 px)",
     "image": "portfolio/typography_poster.jpg",
+    "images": [
+      "portfolio/typography_poster.jpg"
+    ],
     "featured": true,
     "concept": "An experimental exhibition identity exploring the tension between rigid typographic grids and aggressive diagonal kinetics. Drawing inspiration from the International Typographic Style and Russian Constructivism, the poster transforms linguistic text into spatial blocks, guiding viewer eye movements across deliberate reading focal points.",
     "processSteps": [
